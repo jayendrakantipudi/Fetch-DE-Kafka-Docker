@@ -64,9 +64,55 @@ The insights are shown after processing every 10 messages. The `consumer_process
 
 - Most Visited User: Identifies the user who has the most login attempts.
 - Device Type Counts: Counts how many times each device type (e.g., Android, iOS) is used.
-- Users by Country: Uses the IP address to determine the country of the user and counts the number of users per country.
 - Device Types by Country: Lists the device types used in each country.
 - Users by Locale: Counts the number of users for each locale.
+
+<table>
+  <thead>
+    <tr>
+      <td>Analysis</td>
+      <td>Processed after 10 messages</td>
+      <td>Processed after 20 messages</td>
+      <td>Processed after 30 messages</td>
+      <td>Processed after 40 messages</td>
+      <td>Processed after 50 messages</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Most Visited User</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Device Type Counts</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Top 3 countries with most users</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Top 3 Locale with most users</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Conclusion
 This project demonstrates setting up a real-time data processing pipeline using Kafka and Docker. By following the steps outlined in this README, you can analyze streaming data efficiently and gain insights from the processed data that continuously flows from the stream.
