@@ -12,7 +12,6 @@ This project sets up a real-time streaming data pipeline using Apache Kafka and 
   - [3. Verify Kafka Setup](#3-verify-kafka-setup)
   - [4. View Consumer Logs](#4-view-consumer-logs)
 - [Data Processing Insights](#data-processing-insights)
-- [Troubleshooting](#troubleshooting)
 - [Conclusion](#conclusion)
 
 ## Requirements
@@ -33,7 +32,7 @@ This project uses Docker Compose to set up the following services:
 The Kafka consumer performs the following data processing tasks:
 1. **Find the most visited user**.
 2. **Find the count of each different type of device**.
-3. **Find the number of users from each country** based on their IP address.
+3. **Find the number of users from each country based on their IP address.**
 4. **Find the different device types used in each country**.
 5. **Find the number of users for each locale**.
 
@@ -67,52 +66,7 @@ The insights are shown after processing every 10 messages. The `consumer_process
 - Device Types by Country: Lists the device types used in each country.
 - Users by Locale: Counts the number of users for each locale.
 
-<table>
-  <thead>
-    <tr>
-      <td>Analysis</td>
-      <td>Processed after 10 messages</td>
-      <td>Processed after 20 messages</td>
-      <td>Processed after 30 messages</td>
-      <td>Processed after 40 messages</td>
-      <td>Processed after 50 messages</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Most Visited User</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Device Type Counts</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Top 3 countries with most users</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Top 3 Locale with most users</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+
 
 ## Conclusion
 This project demonstrates setting up a real-time data processing pipeline using Kafka and Docker. By following the steps outlined in this README, you can analyze streaming data efficiently and gain insights from the processed data that continuously flows from the stream.
